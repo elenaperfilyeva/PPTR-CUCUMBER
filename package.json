@@ -1,0 +1,24 @@
+{
+  "name": "pptr-cucumber",
+  "version": "1.0.0",
+  "description": "puppeteer with cucumber js",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -f json:cucumber_report.json",
+    "generate:report": "node report.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "gherkin",
+    "cucumber",
+    "javascript"
+  ],
+  "author": "Elena Perfilyeva",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "cucumber": "^6.0.7",
+    "cucumber-html-reporter": "^6.0.0",
+    "puppeteer": "^19.9.0"
+  }
+}
